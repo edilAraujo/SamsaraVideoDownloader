@@ -18,19 +18,17 @@ Rate Limit Handling:
 Logging & Tracking: 
   - Logs operational details to a file and saves retrieval request IDs for tracking/debugging.
 
-Requirements
-Python 3.x
+Requirements: Python 3.x
 
 Samsara API Token with the following permissions:
   - Media Retrieval (Read & Write)
   - Vehicles (Read)
 
-Python packages listed in requirements.txt.
-
 Installation:
   Clone the repository or download the script files (main.py, helpers.py, SamsaraAPI.py).
 
   (Recommended) Create and activate a virtual environment:
+  
     python -m venv venv
     
     # On Windows
